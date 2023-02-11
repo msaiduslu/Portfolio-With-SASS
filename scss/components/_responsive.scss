@@ -1,8 +1,5 @@
 @include media-xsm {
-  .about-bgImg-container {
-    overflow: scroll;
-  }
-  .nav {
+   .nav {
     padding: 0.5rem;
     &__list {
       text-align: center;

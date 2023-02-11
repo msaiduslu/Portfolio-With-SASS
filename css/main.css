@@ -8,7 +8,7 @@
 .about-bgImg-container {
   height: 50vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../img/model-1.jpg");
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -49,7 +49,7 @@
 .contact-bgImg-container {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../img/model-1.jpg");
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -84,7 +84,7 @@
 .home-bgImg-container {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../img/model-1.jpg");
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -110,7 +110,7 @@
 .project-bgImg-container {
   height: 40vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../img/model-1.jpg");
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -224,9 +224,6 @@ footer.middle {
 }
 
 @media screen and (min-width: 0px) {
-  .about-bgImg-container {
-    overflow: scroll;
-  }
   .nav {
     padding: 0.5rem;
   }
